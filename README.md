@@ -10,6 +10,9 @@ para irse modificando al igual que los proyectos que se iran guardando en fireba
 ### Diseño
 [ Diseño Portfolio](https://www.figma.com/file/9HSlNWW4m3LfvJfi00676x/Curriculum?node-id=0%3A1)
 
+### Trello
+[Portfolio](https://trello.com/b/Kfu9h0Vr/port-folio)
+
 ## Tecnologias utilizadas
 
  - Angular
