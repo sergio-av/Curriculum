@@ -9,3 +9,17 @@ para irse modificando al igual que los proyectos que se iran guardando en fireba
 
 ### Diseño
 [ Diseño Portfolio](https://www.figma.com/file/9HSlNWW4m3LfvJfi00676x/Curriculum?node-id=0%3A1)
+
+## Tecnologias utilizadas
+
+ - Angular
+ - Html
+ - Css
+ - Fire Base
+
+## Herramientas utilizadas 
+
+ - Visual estudio Code
+ - Figma
+ - Trello
+ 
