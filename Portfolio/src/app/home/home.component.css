@@ -3,10 +3,12 @@
   background-size: cover;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   
+  align-items: center;
   height: 1024px;
 }
+
 
 #textoHome h1{
     
@@ -15,7 +17,7 @@
     font-size: 96px;
     
 
-    margin-top: 200px;
+    margin-top: 350px;
     
 
     color: #FFFAFA;
@@ -23,15 +25,34 @@
 }
 
 #textoHome p{
-
     text-align: center;
     font-weight: 900;
     font-size: 24px;
     
-
-    margin-top: 200px;
+    margin-top: 61px;
     
 
     color: #FFFAFA;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+#redeSocialesHome{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.iconSocial{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.iconSocial li{
+    display: inline;
+}
+
+.iconSocial li a> img{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
