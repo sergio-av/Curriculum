@@ -33,6 +33,7 @@ p, h3{
     height: 445px;
     width: 160px;
 }
+/*         Educacion         */
 /* ====================== */
 
 #educacion{
@@ -49,6 +50,9 @@ p, h3{
 #educacion p{
     font-size: 18px;
 }
+#educacion li{
+    font-size: 18px;
+}
 #educacion hr{
     margin-top: 0px;
     border: 1px solid;
@@ -61,6 +65,7 @@ p, h3{
     font-style: italic;
 }
 
+/*     Skills    */
 /* ============= */
 #segundoBloque{
     display: flex;
@@ -70,9 +75,7 @@ p, h3{
     margin-left: 78px;
     margin-top: 30px;
 }
-#skills{
-    margin-bottom: 0px;
-}
+
 #skills hr{
     width: 89px;
     margin-top: 0px;
@@ -97,5 +100,14 @@ p, h3{
 
     margin-top: 25px;
     margin-right: 400px;
-
+}
+#softSkills h3{
+    font-size: 30px;
+}
+#softSkills hr{
+    margin-top: 0px;
+    border: 1px solid;
+}
+#softSkills p{
+    font-size: 18px;
 }

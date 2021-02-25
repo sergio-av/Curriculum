@@ -1,5 +1,5 @@
 #about {
-  height: 611px;
+  height: 630px;
   left: 0px;
   top: 0px;
 
@@ -34,6 +34,7 @@
   align-items: center;
 
   padding-top: 124px;
+  margin-bottom: 100px;
 }
 .textDireccion {
   padding-right: 199px;
@@ -41,6 +42,7 @@
 .textDireccion p {
   font-size: 24px;
   line-height: 28px;
+  
 }
 
 #botonCv {
