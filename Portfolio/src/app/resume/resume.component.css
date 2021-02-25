@@ -1,0 +1,71 @@
+p, h3{
+    color: black;
+}
+
+/* ====================== */
+
+#primerBloque{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    
+
+    margin-left: 78px;
+    margin-top: 66px;
+}
+#primerBloque h2{
+    font-weight: 500;
+    font-size: 36px;
+    color:  rgba(95, 64, 6, 0.6);
+
+    margin-bottom: 0px;
+}
+
+#education hr{
+    margin-top: 0px;
+    border: 5px solid;
+    
+    color:  #C4C4C4;
+}
+#education{
+    margin-top: 0px;
+    height: 445px;
+    width: 160px;
+}
+/* ====================== */
+
+#educacion{
+    width: 965px;
+    height: 314px;
+
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    margin-top: 25px;
+    margin-right: 400px;
+}
+#educacion p{
+    font-size: 18px;
+}
+#educacion hr{
+    margin-top: 0px;
+    border: 1px solid;
+}
+#educacion h3{
+    font-size: 30px;
+}
+.fechaAda{
+    color: grey;
+    font-style: italic;
+}
+
+/* ============= */
+
+#skills{
+    margin-bottom: 0px;
+}
+#skills hr{
+    width: 89px;
+}
