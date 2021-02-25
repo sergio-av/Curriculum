@@ -62,10 +62,40 @@ p, h3{
 }
 
 /* ============= */
+#segundoBloque{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
 
+    margin-left: 78px;
+    margin-top: 30px;
+}
 #skills{
     margin-bottom: 0px;
 }
 #skills hr{
     width: 89px;
+    margin-top: 0px;
+    border: 5px solid;
+    
+    color:  #C4C4C4;
+}
+#skills h2{
+    font-weight: 500;
+    font-size: 36px;
+    color:  rgba(95, 64, 6, 0.6);
+
+    margin-bottom: 0px;
+}
+#softSkills{
+    width: 965px;
+    height: 314px;
+
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    margin-top: 25px;
+    margin-right: 400px;
+
 }
