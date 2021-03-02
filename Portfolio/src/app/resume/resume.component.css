@@ -6,10 +6,7 @@ p, h3{
 
 #primerBloque{
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-
-    
 
     margin-left: 78px;
     margin-top: 66px;
