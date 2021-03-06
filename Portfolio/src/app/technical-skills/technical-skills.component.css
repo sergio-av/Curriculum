@@ -60,3 +60,60 @@
 
     height: 31px;
 }
+
+
+@media only screen and (max-width: 900px){
+    #tecSkills{
+        width: 375px;
+        height: 20px;
+
+        margin-left: 0px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    #tecSkills h3{
+        color: black;
+        
+    }
+    #tecSkills hr{
+        width: 300px;
+        border: 1px solid;
+
+    }
+
+    #listaTecnicas{
+        list-style: none;
+        padding-left: 0px;
+    }
+    #listaTecnicas p{
+        width: 80px;
+        color: black;
+        margin-right: 10px;
+    }
+    #listaTecnicas li{
+        margin-top: 10px;
+    }
+    
+    .medidorVacio{
+        color: none;
+        border-radius: 20px;
+        border: 1px solid;
+        width: 200px; 
+        height: 21px;
+    
+        margin-left: 5px;    
+        
+    }
+
+    .medidorYeno{
+        background: rgba(95, 64, 6, 0.6);
+        border-radius: 20px;
+
+        height: 21px;
+    }
+    
+}
