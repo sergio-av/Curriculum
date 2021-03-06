@@ -86,4 +86,8 @@
     .iconSocial > li{
         margin-top: 25px;
     }
+    .iconSocial img{
+        width: 50%;
+        height: 70%;
+    }
 }
