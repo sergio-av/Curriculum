@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     font-family: 'Roboto', sans-serif;
+    
+}
+
+
+p,a ,h1 ,h3{
+    color: white;
 }

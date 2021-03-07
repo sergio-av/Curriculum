@@ -1,0 +1,211 @@
+p, h3{
+    color: black;
+}
+
+/* ====================== */
+
+#primerBloque{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 78px;
+    margin-top: 66px;
+}
+#primerBloque h2{
+    font-weight: 500;
+    font-size: 36px;
+    color:  rgba(95, 64, 6, 0.6);
+
+    margin-bottom: 0px;
+}
+
+#education hr{
+    margin-top: 0px;
+    border: 5px solid;
+    
+    color:  #C4C4C4;
+}
+#education{
+    margin-top: 0px;
+    height: 445px;
+    width: 160px;
+}
+/*         Educacion         */
+/* ====================== */
+
+#educacion{
+    width: 965px;
+    height: 314px;
+
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    margin-top: 25px;
+    margin-right: 400px;
+}
+#educacion p{
+    font-size: 18px;
+}
+#educacion li{
+    font-size: 18px;
+}
+#educacion hr{
+    margin-top: 0px;
+    border: 1px solid;
+}
+#educacion h3{
+    font-size: 30px;
+}
+.fechaAda{
+    color: grey;
+    font-style: italic;
+}
+
+/*     Skills    */
+/* ============= */
+#segundoBloque{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    margin-left: 78px;
+    margin-top: 30px;
+}
+
+#skills hr{
+    width: 89px;
+    margin-top: 0px;
+    border: 5px solid;
+    
+    color:  #C4C4C4;
+}
+#skills h2{
+    font-weight: 500;
+    font-size: 36px;
+    color:  rgba(95, 64, 6, 0.6);
+
+    margin-bottom: 0px;
+}
+#softSkills{
+    width: 965px;
+    height: 314px;
+
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    margin-top: 25px;
+    margin-right: 400px;
+}
+#softSkills h3{
+    font-size: 30px;
+}
+#softSkills hr{
+    margin-top: 0px;
+    border: 1px solid;
+}
+#softSkills p{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 900px){
+    #primerBloque{
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 100px;
+        margin-top: 50px;
+    } 
+    #education{
+        margin-top: 0px;
+        height: 80px;
+        width: 160px;
+    }
+
+    #educacion{
+        width: 405px;
+        height: 450px;
+        
+        padding-right: 240px;
+        text-align: center;
+    }
+    #educacion p{
+        font-size: 17px;
+        
+    }
+    #educacion li{
+        margin-right: 13px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    #educacion hr{
+        margin-top: 0px;
+        border: 1px solid;
+    }
+    #educacion h3{
+        font-size: 25px;
+    }
+    .fechaAda{
+        color: grey;
+        font-style: italic;
+    }
+
+
+    #segundoBloque{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        
+
+        margin-left: 78px;
+        margin-top: 200px;
+    }
+
+    #skills{
+        height: 80px;
+        width: 160px;
+    }
+    
+    #skills hr{
+        width: 89px;
+        margin-top: 0px;
+        border: 5px solid;
+        
+        color:  #C4C4C4;
+    }
+    #skills h2{
+        font-weight: 500;
+        font-size: 36px;
+        color:  rgba(95, 64, 6, 0.6);
+    
+        margin-bottom: 0px;
+    }
+
+    #softSkills{
+        width: 300px;
+        height: 480px;
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        text-align: center;
+        margin-right: 70px;
+        margin-top: 20px;
+        
+    }
+    #softSkills h3{
+        font-size: 25px;
+    }
+    #softSkills hr{
+        width: 150px;
+        margin-top: 0px;
+        border: 1px solid;
+    }
+    #softSkills p{
+        font-size: 15px;
+    }
+}

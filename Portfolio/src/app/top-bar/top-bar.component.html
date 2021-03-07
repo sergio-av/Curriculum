@@ -1,8 +1,58 @@
-<div id="menu">
-    <ul>
-        <li><a  href="#">Home</a></li>
-        <li><a  href="#">About</a></li>
-        <li><a  href="#">Resume</a></li>
-        <li><a  href="#">Works</a></li>
-    </ul>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      
+      <div class="navbar-nav">
+        
+        <a class="nav-item nav-link" href="#home">Home</a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#primerBloque">Resume</a>
+        <a class="nav-item nav-link" href="#works">Works</a>
+        <a class="nav-item nav-link" href="#contacts">Contact</a>
+
+        <div id="login">
+          <div id="logout" *ngIf="auth.user | async as user; else login" class="loginDiv">
+            <p>{{user.email}}</p>
+            <button id="bLogout" (click)="auth.logout()">Logout</button> 
+          </div>
+      
+          <ng-template #login>
+            <div class="loginDiv">
+              <input id="inputEmail"
+              
+
+                type="text"
+                name="email"
+                placeholder="Su email"
+                [(ngModel)]="auth.email"
+              />
+        
+              <input id="inputPass"
+                type="password"
+                name="password"
+                placeholder="Su contraseña"
+                [(ngModel)]="auth.pass"
+              />
+              
+              
+              <button id="bLogin" (click)="auth.loging()">Login</button>
+              <button  id="bRegister" (click)="auth.createUser()">Crear Usuario</button>
+            </div>
+          </ng-template>
+
+        </div>
+      </div>
+    </div>
+  </nav>
 </div>
