@@ -10,6 +10,13 @@ import { ResumeComponent } from './resume/resume.component';
 import { TechnicalSkillsComponent } from './technical-skills/technical-skills.component';
 import { WorksComponent } from './works/works.component';
 
+import {AngularFireModule} from '@angular/fire';
+import {AngularFireAuthModule} from '@angular/fire/auth';
+import { environment } from 'src/environments/environment';
+import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +25,16 @@ import { WorksComponent } from './works/works.component';
     AboutComponent,
     ResumeComponent,
     TechnicalSkillsComponent,
-    WorksComponent
+    WorksComponent,
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireAuthModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -33,5 +33,107 @@
     color: #EAB633;
 }
 
+/*  LOGIN  */
+#bLogin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 20;
+    
+    color: #FFFAFA;
+    
+    border-radius: 10px;
+    border-color: white ;
+    outline: none;
+
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 
+    background-color: #191919;
+}
+
+#bRegister{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 20;
+    
+    color: #FFFAFA;
+    
+    border-radius: 10px;
+    border-color: white ;
+    outline: none;
+
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    background-color: #191919;
+}
+
+#inputEmail{
+    margin-right: 10px;
+    margin-left: 10px;
+
+    outline: none;
+    border-radius: 20px;
+
+    border: none;
+
+    text-align: center;
+}
+#inputPass{
+    margin-right: 10px;
+    margin-left: 10px;
+
+    outline: none ;
+    border-radius: 20px;
+
+    border: none;
+
+    text-align: center;
+}
+#bLogout{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 20;
+    
+    color: #FFFAFA;
+    
+    border-radius: 10px;
+    border-color: white ;
+    outline: none;
+
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+
+    background-color: #191919;
+}
+
+#logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#logout p{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px){
+    #inputEmail{
+        margin-bottom: 10px;
+        margin-left: 25%;
+
+    }
+    #inputPass{
+        margin-bottom: 10px;
+        margin-left: 25%;
+        
+    }
+}
